@@ -1,0 +1,26 @@
+.profileDropDownWrapper{
+    display: none;
+    position: absolute;
+    background-color:blue;
+    padding: 12px 16px;
+    z-index:10;
+    
+}
+
+.profileWrapper:hover .profileDropDownWrapper{
+    display: block;
+    border: 3px solid blue;
+    border-radius: 2%;
+    margin-right: 10px;
+    
+
+}
+
+.profileDropDownWrapper span{
+    display: inline-block;
+    cursor:pointer;
+    padding: 10px;
+    color:white;
+ 
+
+}
