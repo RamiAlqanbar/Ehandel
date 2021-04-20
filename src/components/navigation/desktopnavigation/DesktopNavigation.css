@@ -1,0 +1,56 @@
+.desktopNavigationWrapper{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    background-color:blue ;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-weight: bolder;
+
+ 
+}
+.navlogo{
+    grid-column: 2/3;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.signin{
+    grid-column: 18/20;
+    align-self: center;
+  
+}
+
+
+
+.shopButton{
+
+    grid-column: 8/9;
+    justify-self: end;
+    align-self: center;
+}
+.galleryButton{
+    grid-column: 9/11;
+    align-self: center;
+    justify-self: center;
+}
+
+.newsButton{
+
+    grid-column: 11/13;
+    align-self: center;
+    justify-self: start;
+
+}
+
+.authUserNavigation{
+
+    grid-column: 18/20;
+    align-self: center;
+  
+}
+
+
